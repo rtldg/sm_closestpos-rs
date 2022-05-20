@@ -1,0 +1,24 @@
+[package]
+name = "sm_closestpos"
+version = "1.2.0"
+authors = ["rtldg <>"]
+edition = "2021"
+readme = "asdf"
+description = "asdf"
+documentation = "asdf"
+homepage = "asdf"
+repository = "asdf"
+license = "asdf"
+keywords = ["asdf", "jkl"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+float-ord = "0.3.2"
+
+#sm-ext = { git = "https://github.com/asherkin/sm-ext-rs" }
+sm-ext = { path = "../sm-ext-rs" }
+
+#kiddo = "0.2.4"
+kiddo = { path = "../kiddo" } # Fork with the option to enable the sse stuff on non-x86_64
